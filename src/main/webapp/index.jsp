@@ -21,7 +21,7 @@
     </form>
 
     <hr>
-    <h3>All Feedback</h3>
+    <h3>Provide Feedback</h3>
     <%
         List<String> feedbacks = (List<String>) request.getAttribute("feedbacks");
         if (feedbacks != null) {
